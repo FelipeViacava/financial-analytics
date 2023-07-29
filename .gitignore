@@ -1,1 +1,2 @@
-resources/ignore
+resources/venv
+*pdf
