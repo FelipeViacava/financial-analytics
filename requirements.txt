@@ -70,6 +70,7 @@ pyzmq==25.1.0
 radian==0.6.6
 rchitect==0.3.40
 scipy==1.8.0
+seaborn==0.12.2
 SecretStorage==3.3.1
 six==1.16.0
 soupsieve==2.3.1

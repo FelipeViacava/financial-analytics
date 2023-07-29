@@ -1,0 +1,16 @@
+ARIMA (p, d, q)
+
+AR - Auto Regressive (p)
+I - Integrated (d)
+MA - Moving Average (q)
+
+- Plotar a série, ACF e PACF
+- Teste raiz unitária (ADF)
+    - Se for estacionário: proponha os parâmetros p, d e q
+        - Se PACF decai rápido e ACF decai exponencialmente: AR == 1 (e MA == 0)
+        - Se ACF decai rápido e PACF decai exponencialmente: MA == 1 (e AR == 0)
+    - Se não for estacionário: diferencie e repita o teste
+
+Referências:
+    Pacote Forecast: FPP2
+    Pacote Tidyverts: FPP3  
